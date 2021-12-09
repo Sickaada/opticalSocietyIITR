@@ -127,7 +127,7 @@ a {
 .sticky-wrapper {
 	position:absolute;
 	width:100%;
-	padding-top:30px;
+	padding-top:0px;
 }
 
 .sticky-wrapper a {
