@@ -113,7 +113,25 @@ a {
 	color:#fac42b;
 	background:transparent;
 }
-
+.navbar-custom .navbar-nav > li > ul {
+	color:#fac42b;
+	background: black;
+	position: absolute;
+	width: max-content;
+	display: none;
+	z-index: 4;
+}
+.navbar-custom .navbar-nav > li:hover ul {
+	display: block;
+}
+.navbar-custom .navbar-nav > li > ul > li {
+	text-decoration: none;
+}
+.navbar-custom .navbar-nav > li > ul > li > a:hover {
+	color:#fac42b;
+	background:transparent;
+	text-decoration: none;
+}
 .navbar-custom .navbar-nav > li > a:active,
 .navbar-custom .navbar-nav > li > a:focus {
 	color:#fac42b;
