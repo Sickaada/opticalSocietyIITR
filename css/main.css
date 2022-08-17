@@ -336,7 +336,12 @@ a {
 #list-speaker li{
 	display:none; 
 }
-
+.list-unstyled{
+	justify-content: center;
+}
+ul#menu li {
+	display:inline;
+  }
 /* speaker detail */
 
 #speaker-detail {
@@ -838,10 +843,20 @@ a {
 }
 
 #timeline .item {
-	margin:10px 10px 20px 10px;
+	margin:2px 10px 20px 10px;
 }
 
-
+.positions{
+	font-size: large;
+	font-weight: 1000;
+	color: #fac42b;
+}
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    background-color: #fac42b; /* Modern Browsers */
+}
 /* TESTIMONIAL */
 
 #testimonial {
@@ -1086,13 +1101,17 @@ textarea {
 	border:2px solid #262626;
 }
 
-.button-line-dark:hover,
+/*.button-line-dark:hover,
 .button-line-dark:active {
 	color: #ffffff;
 	background: #262626;
 	text-decoration:none;
+}*/
+.button-disabled{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
 }
-
 
 /* PRELOAD */
 
